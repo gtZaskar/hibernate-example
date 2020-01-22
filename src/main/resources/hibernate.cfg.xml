@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <!-- JDBC connection settings -->
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/hibernate_example?serverTimezone=UTC&amp;useSSL=false</property>
+
+        <property name="connection.username">gtZaskarProLe</property>
+        <property name="connection.password">Appleiphone5s</property>
+
+        <!-- Defines the SQL dialect used in Hiberante's application -->
+        <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+        <!-- Drop and re-create the database schema on startup -->
+        <property name="hbm2ddl.auto">create</property>
+        <!-- Display and format all executed SQL to stdout -->
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+<!--        <mapping class="com.alevel.entities.Like"/>-->
+<!--        <mapping class="com.alevel.entities.Photo"/>-->
+<!--        <mapping class="com.alevel.entities.Comment"/>-->
+<!--        <mapping class="com.alevel.entities.User"/>-->
+        <mapping class="com.alevel.entities.Address"/>
+        <mapping class="com.alevel.entities.Employee"/>
+        <mapping class="com.alevel.entities.Project"/>
+    </session-factory>
+
+</hibernate-configuration>
