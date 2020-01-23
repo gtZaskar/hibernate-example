@@ -19,7 +19,7 @@ public class Address {
     @Column(name = "STREET")
     private String street;
 
-    @Column(name = "POST CODE", length = 10)
+    @Column(name = "POST_CODE", length = 10)
     private String postCode;
 
     public Address(){

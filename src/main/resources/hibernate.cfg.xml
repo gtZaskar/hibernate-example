@@ -19,10 +19,7 @@
         <!-- Display and format all executed SQL to stdout -->
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
-<!--        <mapping class="com.alevel.entities.Like"/>-->
-<!--        <mapping class="com.alevel.entities.Photo"/>-->
-<!--        <mapping class="com.alevel.entities.Comment"/>-->
-<!--        <mapping class="com.alevel.entities.User"/>-->
+
         <mapping class="com.alevel.entities.Address"/>
         <mapping class="com.alevel.entities.Employee"/>
         <mapping class="com.alevel.entities.Project"/>
