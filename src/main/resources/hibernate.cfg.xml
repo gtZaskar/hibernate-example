@@ -15,7 +15,7 @@
         <!-- Defines the SQL dialect used in Hiberante's application -->
         <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
         <!-- Drop and re-create the database schema on startup -->
-        <property name="hbm2ddl.auto">create</property>
+        <property name="hbm2ddl.auto">update</property>
         <!-- Display and format all executed SQL to stdout -->
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
